@@ -1,0 +1,145 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\x64\Debug\kernel.cu.obj "C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu" 
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(107): warning #546-D: transfer of control bypasses initialization of:
+              variable "block_size" (declared at line 143)
+              variable "grid_size" (declared at line 144)
+              variable "start" (declared at line 150)
+              variable "end" (declared at line 167)
+    		goto Error;
+    		^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(114): warning #546-D: transfer of control bypasses initialization of:
+              variable "block_size" (declared at line 143)
+              variable "grid_size" (declared at line 144)
+              variable "start" (declared at line 150)
+              variable "end" (declared at line 167)
+    		goto Error;
+    		^
+  
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(120): warning #546-D: transfer of control bypasses initialization of:
+              variable "block_size" (declared at line 143)
+              variable "grid_size" (declared at line 144)
+              variable "start" (declared at line 150)
+              variable "end" (declared at line 167)
+    		goto Error;
+    		^
+  
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(126): warning #546-D: transfer of control bypasses initialization of:
+              variable "block_size" (declared at line 143)
+              variable "grid_size" (declared at line 144)
+              variable "start" (declared at line 150)
+              variable "end" (declared at line 167)
+    		goto Error;
+    		^
+  
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(133): warning #546-D: transfer of control bypasses initialization of:
+              variable "block_size" (declared at line 143)
+              variable "grid_size" (declared at line 144)
+              variable "start" (declared at line 150)
+              variable "end" (declared at line 167)
+    		goto Error;
+    		^
+  
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(139): warning #546-D: transfer of control bypasses initialization of:
+              variable "block_size" (declared at line 143)
+              variable "grid_size" (declared at line 144)
+              variable "start" (declared at line 150)
+              variable "end" (declared at line 167)
+    		goto Error;
+    		^
+  
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(156): warning #546-D: transfer of control bypasses initialization of:
+              variable "end" (declared at line 167)
+    		goto Error;
+    		^
+  
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(163): warning #546-D: transfer of control bypasses initialization of:
+              variable "end" (declared at line 167)
+    		goto Error;
+    		^
+  
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(107): warning #546-D: transfer of control bypasses initialization of:
+              variable "block_size" (declared at line 143)
+              variable "grid_size" (declared at line 144)
+              variable "start" (declared at line 150)
+              variable "end" (declared at line 167)
+    		goto Error;
+    		^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(114): warning #546-D: transfer of control bypasses initialization of:
+              variable "block_size" (declared at line 143)
+              variable "grid_size" (declared at line 144)
+              variable "start" (declared at line 150)
+              variable "end" (declared at line 167)
+    		goto Error;
+    		^
+  
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(120): warning #546-D: transfer of control bypasses initialization of:
+              variable "block_size" (declared at line 143)
+              variable "grid_size" (declared at line 144)
+              variable "start" (declared at line 150)
+              variable "end" (declared at line 167)
+    		goto Error;
+    		^
+  
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(126): warning #546-D: transfer of control bypasses initialization of:
+              variable "block_size" (declared at line 143)
+              variable "grid_size" (declared at line 144)
+              variable "start" (declared at line 150)
+              variable "end" (declared at line 167)
+    		goto Error;
+    		^
+  
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(133): warning #546-D: transfer of control bypasses initialization of:
+              variable "block_size" (declared at line 143)
+              variable "grid_size" (declared at line 144)
+              variable "start" (declared at line 150)
+              variable "end" (declared at line 167)
+    		goto Error;
+    		^
+  
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(139): warning #546-D: transfer of control bypasses initialization of:
+              variable "block_size" (declared at line 143)
+              variable "grid_size" (declared at line 144)
+              variable "start" (declared at line 150)
+              variable "end" (declared at line 167)
+    		goto Error;
+    		^
+  
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(156): warning #546-D: transfer of control bypasses initialization of:
+              variable "end" (declared at line 167)
+    		goto Error;
+    		^
+  
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(163): warning #546-D: transfer of control bypasses initialization of:
+              variable "end" (declared at line 167)
+    		goto Error;
+    		^
+  
+  kernel.cu
+  tmpxft_00006494_00000000-7_kernel.cudafe1.cpp
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(13): warning C4018: '<': signed/unsigned mismatch
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(43): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(43): note: consider using '%zd' in the format string
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(55): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(71): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(167): warning C4533: initialization of 'end' is skipped by 'goto Error'
+  C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(167): note: see declaration of 'end'
+  C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(179): note: see declaration of 'Error'
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(150): warning C4533: initialization of 'start' is skipped by 'goto Error'
+  C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(150): note: see declaration of 'start'
+  C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(179): note: see declaration of 'Error'
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(144): warning C4533: initialization of 'grid_size' is skipped by 'goto Error'
+  C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(144): note: see declaration of 'grid_size'
+  C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(179): note: see declaration of 'Error'
+C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(143): warning C4533: initialization of 'block_size' is skipped by 'goto Error'
+  C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(143): note: see declaration of 'block_size'
+  C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(179): note: see declaration of 'Error'
+  computer-arch-project.vcxproj -> C:\Users\muhammad\Desktop\Uni\computer-arch-project\x64\Debug\computer-arch-project.exe
