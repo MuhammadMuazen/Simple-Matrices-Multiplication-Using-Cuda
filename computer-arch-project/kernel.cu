@@ -21,12 +21,12 @@ __global__ void matrix_multiply_kernel(float* arr1, float* arr2, float* res, uns
 	int col = blockIdx.x * blockDim.x + threadIdx.x;
 
 	if (row < n && col < n) {
-		float sum = 0.0;
+		float mul = 0.0;
 		
 		for (int i = 0; i < n; i++)
-			sum += arr1[row * n + i] * arr2[i * n + col];
+			mul += arr1[row * n + i] * arr2[i * n + col];
 
-		res[row * n + col] = sum;
+		res[row * n + col] = mul;
 	}
 
 }

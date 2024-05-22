@@ -122,7 +122,7 @@ C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel
     		^
   
   kernel.cu
-  tmpxft_00006494_00000000-7_kernel.cudafe1.cpp
+  tmpxft_000055f8_00000000-7_kernel.cudafe1.cpp
 C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(13): warning C4018: '<': signed/unsigned mismatch
 C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 C:\Users\muhammad\Desktop\Uni\computer-arch-project\computer-arch-project\kernel.cu(15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
